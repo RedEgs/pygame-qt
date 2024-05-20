@@ -1,0 +1,121 @@
+<mxfile host="Electron" modified="2024-05-20T23:16:00.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="OfP5aTgfYxqf2x85Tgk8" version="22.1.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="978" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.496;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v8jtZvjTb5YIUa1YYYXu-0" target="v8jtZvjTb5YIUa1YYYXu-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-0" value="Launch PyQt5 Window as normal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-5" value="PyQt5 App loop" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="150" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v8jtZvjTb5YIUa1YYYXu-7" target="v8jtZvjTb5YIUa1YYYXu-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-14" value="Yes&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v8jtZvjTb5YIUa1YYYXu-13">
+          <mxGeometry x="-0.1322" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v8jtZvjTb5YIUa1YYYXu-7" target="v8jtZvjTb5YIUa1YYYXu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="696" y="315" />
+              <mxPoint x="696" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v8jtZvjTb5YIUa1YYYXu-16">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-7" value="Has the play&lt;br&gt;button been&amp;nbsp;&lt;br&gt;pressed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="260" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v8jtZvjTb5YIUa1YYYXu-5" target="v8jtZvjTb5YIUa1YYYXu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v8jtZvjTb5YIUa1YYYXu-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-20" value="Instaniate pygame &quot;game&quot; object from file&lt;br&gt;import&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-25" value="Embedded Pygame App Loop" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="40" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-27" value="game.clock.tick()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-25">
+          <mxGeometry x="9.5" y="30" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-29" value="game.handle_events()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-25">
+          <mxGeometry x="8.5" y="67" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-30" value="game.update()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-25">
+          <mxGeometry x="8.5" y="103" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-33" value="game.draw()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-25">
+          <mxGeometry x="8.5" y="140" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-37" value="yield game.screen" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-25">
+          <mxGeometry x="10" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-39" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="40" width="60" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-40" value="Pygame &quot;game&quot; loops can be different, but should generally follow a similar structure to this.&lt;br&gt;The processing and &quot;main loop&quot; should all be in one function that `yields` the screen at the end" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-45" value="QTimer()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="515" y="530" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-62" value="Update QImage Widget" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-45">
+          <mxGeometry x="15" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-49" value="Update QImage Widget" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="221" y="310" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v8jtZvjTb5YIUa1YYYXu-49" source="v8jtZvjTb5YIUa1YYYXu-51" target="v8jtZvjTb5YIUa1YYYXu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-56" value="Return Value" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v8jtZvjTb5YIUa1YYYXu-55">
+          <mxGeometry x="-0.1762" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-51" value="Embedded Pygame App Loop" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-49">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-53" value="Convert `game.screen` into image" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-49">
+          <mxGeometry x="10" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="v8jtZvjTb5YIUa1YYYXu-49" source="v8jtZvjTb5YIUa1YYYXu-53" target="v8jtZvjTb5YIUa1YYYXu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-59" value="Set image to &quot;new_image&quot;&lt;br&gt;Repaint()/Redraw() widget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="v8jtZvjTb5YIUa1YYYXu-49">
+          <mxGeometry x="10" y="220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v8jtZvjTb5YIUa1YYYXu-49" source="v8jtZvjTb5YIUa1YYYXu-53" target="v8jtZvjTb5YIUa1YYYXu-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100.00000000000011" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8jtZvjTb5YIUa1YYYXu-60" value="Return Value = &quot;new_image&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v8jtZvjTb5YIUa1YYYXu-58">
+          <mxGeometry x="-0.2952" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
